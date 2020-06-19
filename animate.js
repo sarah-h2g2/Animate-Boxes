@@ -2,7 +2,7 @@ for (let i=0; i < 100; i++) {
 	animateDiv();
 }
 function animateDiv() {
-	console.log("Test Fun!!!!");
+	
 	const divEl = document.createElement("div");
 	const ogTop = window.innerHeight / 2;
 	const ogLeft = window.innerWidth / 2;
@@ -16,9 +16,9 @@ function animateDiv() {
 	const body = document.body;
 	body.appendChild(divEl);
 	const negOne = function() {
-      const arr = [1, -1];
-      const pos = Math.floor(Math.random() * 2);
-      return arr[pos];
+        const arr = [1, -1];
+        const pos = Math.floor(Math.random() * 2);
+        return arr[pos];
 	};
 	const trackPosition = {
 		x: window.innerHeight / 2,
